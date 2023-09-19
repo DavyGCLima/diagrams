@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T18:57:58.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="LTGNdbfEbAUs6il4tZWk" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T19:35:13.861Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="1UTG8As3_ZWn3Cv8dA2i" version="21.7.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="819" dy="1598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,6 +48,31 @@
         </mxCell>
         <mxCell id="hVCPA6ifDvhWwPUrcSmJ-12" value="Default Handler Func" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="460" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="34WbSOcNdu3eV-KuN4JB-0" value="Exception Response" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="465" width="200" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="34WbSOcNdu3eV-KuN4JB-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="34WbSOcNdu3eV-KuN4JB-0" parent="WIyWlLk6GJQsqaUBKTNV-1" target="34WbSOcNdu3eV-KuN4JB-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34WbSOcNdu3eV-KuN4JB-2" value="Send HTTP Response" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="34WbSOcNdu3eV-KuN4JB-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="615" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="34WbSOcNdu3eV-KuN4JB-4" value="" style="endArrow=open;startArrow=cross;endFill=0;startFill=0;endSize=8;startSize=10;html=1;rounded=0;entryX=0.179;entryY=0.271;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hVCPA6ifDvhWwPUrcSmJ-4" target="34WbSOcNdu3eV-KuN4JB-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="340" as="sourcePoint" />
+            <mxPoint x="360" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34WbSOcNdu3eV-KuN4JB-5" value="cod 500" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="34WbSOcNdu3eV-KuN4JB-4">
+          <mxGeometry x="-0.0622" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
