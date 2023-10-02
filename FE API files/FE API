@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-02T21:27:42.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="lJOGs3lFkJ3gvZ3Xukba" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-02T23:38:08.009Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="OH1oq6L1-uo_M5E-Uf7n" version="22.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2074" dy="1919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,8 +87,8 @@
         <mxCell id="vXQoJQ5utPfotzHvrA71-3" value="&lt;h1&gt;Service File&lt;/h1&gt;&lt;p&gt;This is a file that works as service entity. All entities should implement the BaseEntity from BaseService.ts&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1160" y="-40" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="vXQoJQ5utPfotzHvrA71-4" value="Instance of Service&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;+ otherMethod(): Type&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;..." style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1120" y="110" width="180" height="120" as="geometry" />
+        <mxCell id="vXQoJQ5utPfotzHvrA71-4" value="Instance of Service&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;+ findByEail(email: String): Entity&lt;br&gt;+ otherMethod(): Type&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;..." style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1120" y="110" width="210" height="130" as="geometry" />
         </mxCell>
         <mxCell id="vXQoJQ5utPfotzHvrA71-5" value="Call" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vXQoJQ5utPfotzHvrA71-0" target="vXQoJQ5utPfotzHvrA71-4" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
